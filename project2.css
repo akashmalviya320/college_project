@@ -1,0 +1,124 @@
+#cap{
+    width: 16vw;
+    height: 11vw;
+}
+.heading{
+    display: flex;
+   justify-content: space-around;
+}
+#heading1
+{
+   
+    font-size: 4vw;
+    text-decoration:underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(16, 136, 38);
+    color: rgb(8, 69, 69);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-shadow: 3px 4px 4px rgb(218, 216, 233);
+
+   
+}
+#heading2{
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 2px 0px 8px 0px;
+    text-decoration:double;
+}
+nav,a[class="menu"]{
+
+background-color: black;
+font-size: 21px;
+display:flex;
+justify-content: space-around;
+width: 85vw;
+height: 40px;
+position:static;
+box-sizing: border-box;
+padding:0.1vw 0vw 0vw 0vw;
+
+}
+#project2{
+background-color: rgba(45, 29, 194, 0.81);
+}
+#project2:hover{
+background-color: rgba(25, 89, 161, 0.856);
+}
+
+.menu{
+color: white;
+}
+a[class="menu"]:hover{
+background-color: rgba(25, 89, 161, 0.856);
+border: 1px solid darkblue;
+
+}
+
+.all{
+    box-sizing: border-box; 
+    padding: 4vw;
+    border: 10px solid black;
+    background-color: rgba(148, 214, 173, 0.68);
+    margin:20px;
+}
+
+input[type="text"],
+input[type="email"],textarea{          
+    padding: 0.5vw;  
+    width: 100%;
+}
+input[type="tel"]{
+    width: 30%;
+    padding: 0.5vw;  
+}
+input[type="date"]{
+    width: 20%;
+    padding: 0.5vw;  
+}
+input[type="number"]{
+    width: 30%;
+    padding: 0.5vw;  
+}
+input[type="submit"],input[type="reset"]{
+    box-sizing: border-box;
+    width: 49%;
+    height: 6%;
+    padding: 0.5vw;  
+    font-size: 1.4vw;
+    background-color: rgba(69, 135, 209, 0.518);
+    
+}
+input[type="submit"]:hover{
+    background-color:  rgba(0, 119, 255, 0.633);
+}
+input[type="reset"]:hover{
+    background-color:  rgba(0, 119, 255, 0.633);
+}
+main{
+    font-size: 1.7vw;
+    background-color: rgba(115, 117, 118, 0.156);
+    padding: 2vw;
+}
+input[type="radio"]{
+    margin: 1vw;
+}
+.image{
+    background-color: rgb(254, 254, 255);
+    border: 2px solid rgba(24, 23, 23, 0.487);
+    width: 6vw;
+    height: 6vw;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+}
+#image2{
+    margin-left: 175px;
+}
+#image1{
+    margin-left: 10px;
+}
+.imagebox{
+    display: flex;
+}
